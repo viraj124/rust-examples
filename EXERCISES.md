@@ -95,7 +95,7 @@ fn fibonacci(n: u32) -> u64 {
 
 ---
 
-## Chapter 5: Ownership (See: `src/ownership.rs`)
+## Chapter 5: Ownership (See: `ch04-ownership/`)
 
 ### Exercise 3: String Ownership
 **Fix this code without using clone():**
@@ -176,7 +176,7 @@ fn main() {
 
 ---
 
-## Chapter 6: Structs (See: `src/structs.rs`)
+## Chapter 6: Structs (See: `ch05-structs/`)
 
 ### Exercise 5: Rectangle Area
 **Create a Rectangle struct with methods for area and perimeter:**
@@ -246,7 +246,7 @@ impl Rectangle {
 
 ---
 
-## Chapter 7: Enums and Pattern Matching (See: `src/enums.rs`)
+## Chapter 7: Enums and Pattern Matching (See: `ch06-enums/`)
 
 ### Exercise 6: Traffic Light
 **Create an enum for traffic lights with a method to get duration:**
@@ -336,7 +336,7 @@ fn main() {
 
 ---
 
-## Chapter 8: Collections (See: `common-collections/`)
+## Chapter 8: Collections (See: `ch08-common-collections/`)
 
 ### Exercise 8: Word Counter
 **Count word frequencies in a string using HashMap:**
@@ -481,7 +481,7 @@ fn read_file_contents(path: &str) -> Result<String, io::Error> {
 
 ---
 
-## Chapter 10: Generics (See: `generics/`)
+## Chapter 10: Generics (See: `ch10-generics/`)
 
 ### Exercise 11: Generic Pair
 **Create a generic Pair struct that can hold two values of any type:**
@@ -533,7 +533,7 @@ impl<T, U> Pair<T, U> {
 
 ---
 
-## Chapter 10: Traits (See: `traits/`)
+## Chapter 10: Traits (See: `ch10-traits/`)
 
 ### Exercise 12: Printable Trait
 **Create a trait that provides a custom print format:**
@@ -589,7 +589,7 @@ impl Printable for Product {
 
 ---
 
-## Chapter 10: Lifetimes (See: `lifetimes/`)
+## Chapter 10: Lifetimes (See: `ch10-lifetimes/`)
 
 ### Exercise 13: Longest String
 **Fix the lifetime annotations:**
@@ -625,7 +625,7 @@ fn longest<'a>(x: &'a str, y: &'a str) -> &'a str {
 
 ---
 
-## Chapter 13: Closures (See: `closures/`)
+## Chapter 13: Closures (See: `ch13-closures/`)
 
 ### Exercise 14: Closure Counter
 **Create a closure that counts how many times it's been called:**
@@ -669,7 +669,7 @@ fn main() {
 
 ---
 
-## Chapter 13: Iterators (See: `iterators/`)
+## Chapter 13: Iterators (See: `ch13-iterators/`)
 
 ### Exercise 15: Iterator Chain
 **Use iterator methods to transform a list:**
@@ -702,7 +702,7 @@ fn sum_of_even_squares(numbers: Vec<i32>) -> i32 {
 
 ---
 
-## Chapter 15: Smart Pointers (See: `smart_pointer/`)
+## Chapter 15: Smart Pointers (See: `ch15-smart-pointers/`)
 
 ### Exercise 16: Linked List with Box
 **Implement a simple linked list using Box:**
@@ -770,7 +770,7 @@ impl List {
 
 ---
 
-## Chapter 16: Concurrency (See: `consurrency/`)
+## Chapter 16: Concurrency (See: `ch16-concurrency/`)
 
 ### Exercise 17: Parallel Sum
 **Sum a large vector using multiple threads:**
@@ -834,7 +834,7 @@ fn parallel_sum(numbers: Vec<i32>, num_threads: usize) -> i32 {
 
 ---
 
-## Chapter 17: Async (See: `hello-async/`)
+## Chapter 17: Async (See: `ch17-async-await/`)
 
 ### Exercise 18: Async Timeout
 **Create an async function that returns a value or times out:**
@@ -877,7 +877,7 @@ async fn with_timeout<T>(
 
 ---
 
-## Chapter 18: OOP Patterns (See: `oop-patterns/`)
+## Chapter 18: OOP Patterns (See: `ch18-oop-patterns/`)
 
 ### Exercise 19: Builder Pattern
 **Implement a builder pattern for a complex struct:**
@@ -971,7 +971,7 @@ impl EmailBuilder {
 
 ---
 
-## Chapter 19: Patterns (See: `pattern-matching/`)
+## Chapter 19: Patterns (See: `ch19-pattern-matching/`)
 
 ### Exercise 20: Pattern Matching Challenge
 **Use all pattern features to parse commands:**

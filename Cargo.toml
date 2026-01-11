@@ -1,7 +1,25 @@
-[package]
-name = "rust_examples"
-version = "0.1.0"
-edition = "2021"
-
-[dependencies]
-rand = "0.8.5"
+[workspace]
+resolver = "2"
+members = [
+    "ch02-guessing-game",
+    "ch03-common-concepts",
+    "ch04-ownership",
+    "ch05-structs",
+    "ch06-enums",
+    "ch07-modules-packages",
+    "ch08-common-collections",
+    "ch10-generics",
+    "ch10-lifetimes",
+    "ch10-traits",
+    "ch11-testing",
+    "ch12-minigrep-project",
+    "ch13-closures",
+    "ch13-iterators",
+    "ch15-reference-cycles",
+    "ch15-smart-pointers",
+    "ch16-concurrency",
+    "ch17-async-await",
+    "ch18-oop-patterns",
+    "ch19-pattern-matching",
+    "ch20-advanced-features",
+]
